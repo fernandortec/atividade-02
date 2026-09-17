@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+/* package com.example.demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -22,3 +22,4 @@ public class SendEmailController {
         return "Email enviado com sucesso!";
     }
 }
+ */
