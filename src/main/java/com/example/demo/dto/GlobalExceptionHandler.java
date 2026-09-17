@@ -25,6 +25,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Object> handleGenericException(Exception ex) {
         Map<String, Object> body = new HashMap<>();
+        System.out.println(ex.getLocalizedMessage());
         body.put("timestamp", LocalDateTime.now());
         body.put("message", "Ocorreu um erro inesperado");
 
